@@ -1,0 +1,135 @@
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    min-width: 320px;
+    width: 10rem;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+}
+
+.search {
+    position: relative;
+    width: 10rem;
+    height: 2.4rem;
+    background-color: pink;
+}
+
+.classify,
+.login {
+    position: absolute;
+    width: .48rem;
+    height: .8rem;
+}
+
+.classify {
+    top: .133333rem;
+    left: .4rem;
+    background: url(../images/classify.png) no-repeat;
+    background-size: .48rem .8rem;
+}
+
+.login {
+    top: .133333rem;
+    right: .4rem;
+    background: url(../images/login.png) no-repeat;
+    background-size: .48rem .8rem;
+}
+
+.top {
+    position: absolute;
+    top: .133333rem;
+    left: 2.666667rem;
+    width: 5.2rem;
+    height: 1.013333rem;
+}
+
+.top img {
+    width: 100%;
+}
+
+.search input {
+    position: absolute;
+    left: .333333rem;
+    top: 1.666667rem;
+    width: 9.36rem;
+    height: .586667rem;
+    padding-left: .6rem;
+    font-size: .24rem;
+    outline: none;
+    border: 0;
+    border-radius: .293333rem;
+}
+
+.search::after {
+    content: "";
+    position: absolute;
+    top: 1.76rem;
+    left: .466667rem;
+    width: .4rem;
+    height: .4rem;
+    background: url(../images/search.png) no-repeat;
+    background-size: .4rem .4rem;
+}
+
+.banner {
+    width: 10rem;
+    height: 3.053333rem;
+    background-color: pink;
+}
+
+.banner .pic {
+    display: flex;
+    overflow: hidden;
+    width: 9.333333rem;
+    height: 3.053333rem;
+    margin: auto;
+    border-radius: .2rem;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.ad {
+    display: flex;
+    width: 10rem;
+    height: 3.733333rem;
+    margin-top: .133333rem;
+    flex-wrap: wrap;
+}
+
+.ad a {
+    display: flex;
+    width: 2rem;
+    height: 1.893333rem;
+    flex-direction: column;
+    align-items: center;
+    color: #666;
+}
+
+.ad a img {
+    width: 1.12rem;
+    height: 1.12rem;
+}
+
+.youhui {
+    display: flex;
+    width: 10rem;
+    height: 3.12rem;
+}
+
+.youhui img:nth-child(1) {
+    flex: 2;
+}
+
+.youhui img:nth-child(2),
+.youhui img:nth-child(3) {
+    flex: 1;
+}
